@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=latex-base:latest
+ARG BASE_IMAGE=texlive/texlive:latest
 
 # --- Stage 1: Build the Go binary ---
 FROM golang:1.21-alpine AS builder
